@@ -1,0 +1,4 @@
+#12.Locating the mid-point of two points
+(x1,y1) = (int(input()),int(input()))
+(x2,y2) = (int(input()),int(input()))
+print("Binoy's house is located at",((x1+x2)/2,(y1+y2)/2))
