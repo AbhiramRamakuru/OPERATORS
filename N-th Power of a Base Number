@@ -1,0 +1,10 @@
+#9.Nth Power of a Base Number
+#1st Method
+a=int(input())
+b=int(input())
+print(a**b)
+
+#2nd Method
+a=int(input())
+b=int(input())
+print(pow(a,b))
