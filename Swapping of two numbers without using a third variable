@@ -1,0 +1,27 @@
+#4.Swapping of two numbers without using a third variable
+
+#using XOR Gate ( ^ -operator)
+a = int(input())
+b = int(input())
+a = a^b
+b = a^b
+a = a^b
+print(a)
+print(b)
+
+#using arithmetic operators
+a=int(input())
+b=int(input())
+a=a+b
+b=a-b
+a=a-b
+print(a)
+print(b)
+
+#Using Swapping Technique
+a=int(input())
+b=int(input())
+(b,a)=(a,b)
+print(a)
+print(b)
+
