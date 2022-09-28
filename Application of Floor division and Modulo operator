@@ -1,0 +1,4 @@
+#11.Application of Floor division and Modulo operator
+a = int(input())
+b = int(input())
+print("The number of students in each team is",a//b,"and left out is",a%b)
